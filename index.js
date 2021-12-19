@@ -1,1 +1,5 @@
-console.log(process.env);
+try {
+  console.log(__dirname ,process.env);
+} catch (e) {
+  console.log(e);
+}
